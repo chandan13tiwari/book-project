@@ -50,6 +50,9 @@ public class StatisticTestUtils {
   public static double totalRating = 0.0;
   public static double thisYearRating = 0.0;
 
+  public static double avgRatingForReadBooks = 4.833333333333333;
+  public static double avgPageLengthForReadBooks = 260.0;
+
   private StatisticTestUtils() {}
 
   public static void populateReadBooks(

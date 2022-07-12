@@ -20,6 +20,7 @@ package com.karankumar.bookproject.statistics;
 import com.karankumar.bookproject.book.model.Book;
 import com.karankumar.bookproject.book.model.RatingScale;
 import com.karankumar.bookproject.shelf.service.PredefinedShelfService;
+import lombok.Getter;
 import lombok.extern.java.Log;
 
 import java.util.ArrayList;
@@ -28,6 +29,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Log
+@Getter
 public class RatingStatistics extends Statistics {
   private List<Book> readBooksRated = new ArrayList<>();
 
